@@ -7,7 +7,6 @@ const CONFIG = {
     bio: "Keep learning, keep coding",
     email: "qqkkwana@gmail.com",
     github: "neo896",
-    bilibili: "220081065",
     instagram: '',
     linkedin: ''
   },
@@ -66,7 +65,7 @@ const CONFIG = {
     enable: false,
     config: {
       host: "https://cusdis.com",
-      appid: "b33faf19-793b-4805-9d2f-d27bbd0becbc", // Embed Code -> data-app-id value
+      appid: "", // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
