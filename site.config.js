@@ -1,8 +1,8 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "lifeisbinary",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    name: "Neo",
+    image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "后端开发",
     bio: "Keep learning, keep coding",
     email: "qqkkwana@gmail.com",
@@ -24,8 +24,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://ob.lifeisbinary.cn",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://blog.lifeisbinary.cn",
+  since: 2024, // If leave this empty, current year will be used.
   lang: "zh-CN", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
@@ -62,10 +62,10 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
-      appid: "", // Embed Code -> data-app-id value
+      appid: "b33faf19-793b-4805-9d2f-d27bbd0becbc", // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
