@@ -5,7 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineMail,
-  AiFillBilibili 
+  AiOutlineBilibili  
 } from "react-icons/ai"
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
@@ -33,7 +33,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillBilibili className="icon" />
+            <AiOutlineBilibili  className="icon" />
             <div className="name">bilibili</div>
           </a>
         )}
